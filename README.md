@@ -1,1 +1,4 @@
-## A comprehensive and secure authentication system providing sign-up, login, and password reset functionalities.
+### A comprehensive and secure authentication system providing:
+##### sign-up 
+##### login 
+##### password reset
