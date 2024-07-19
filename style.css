@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.circle {
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.circle-one {
+  left: -50px;
+  bottom: 320px;
+  background-image: linear-gradient(#204386, #3d79ab);
+}
+.circle-tow {
+  right: 0px;
+  bottom: -130px;
+  background-image: linear-gradient(to right, red, rgb(231, 155, 13));
+}
+
+.transbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  border: 2px solid rgba(128, 128, 128, 0.39);
+  box-shadow: 0px 0px 50px rgba(8, 7, 16, 0.6);
+  backdrop-filter: blur(6px);
+  font-weight: 500;
+  letter-spacing: 1px;
+  z-index: 3;
+}
+
+label {
+  padding-left: 30px;
+}
+input {
+  display: block;
+  outline: none;
+  height: 50px;
+  width: 80%;
+  padding: 10px;
+  margin-left: 7%;
+  background-color: #2a2c32;
+  border: #050402;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+}
+button {
+  display: block;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  border: #050402;
+  border-radius: 2px;
+  margin-left: 7%;
+  padding: 10px;
+  height: 50px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 16px;
+}
