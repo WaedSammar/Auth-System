@@ -19,7 +19,7 @@ body {
 }
 .circle-one {
   left: -50px;
-  bottom: 320px;
+  bottom: 350px;
   background-image: linear-gradient(#204386, #3d79ab);
 }
 .circle-tow {
@@ -29,6 +29,10 @@ body {
 }
 
 .transbox {
+  width: 420px; height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,6 +45,7 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   z-index: 3;
+  padding-top: 25px;
 }
 
 label {
@@ -61,14 +66,12 @@ input {
   line-height: 16px;
 }
 button {
-  display: block;
+  width: 100%;
   cursor: pointer;
-  outline: none;
   color: black;
   border: #050402;
   border-radius: 2px;
   margin-left: 7%;
-  padding: 10px;
   height: 50px;
   width: 80%;
   font-size: 18px;
